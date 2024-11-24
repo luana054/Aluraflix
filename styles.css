@@ -1,0 +1,59 @@
+body {
+    color: rgb(247, 236, 230);
+    background: rgb(250, 161, 59);
+    margin: 0px;
+    font-family: "Permanent Marker", cursive;
+    border-bottom: 500px;
+}
+
+header {
+    border-bottom: solid 3px rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 20px;
+    color: rgb(245, 245, 238);
+}
+
+.chamada {
+    background: rgb(240, 185, 114);
+    padding-bottom: 90px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 1%;
+}
+
+h1 {
+   font-size: 23;
+}
+
+p {
+  font-size: 50px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 13px;
+}
+
+.categoria {
+    padding-left: 40px;
+    padding-right: 60px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 150px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(245, 229, 4);
+}
+
+.categoria h2 {
+    color: rgb(247, 237, 225);
+}
